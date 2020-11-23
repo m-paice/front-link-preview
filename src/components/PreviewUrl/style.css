@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 800px;
+  height: 300px;
+
+  border: 1px solid;
+
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.content img {
+  width: 100%;
+  max-height: 300px;
+}
